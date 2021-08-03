@@ -19,7 +19,7 @@ int	ft_iterative_factorial(int nb)
 #include <stdio.h>
 int	main(void)
 {
-	int var = 25;
+	int var = 12;
 	printf("factorial(%d) := %d", var, ft_iterative_factorial(var));
 }
 */
