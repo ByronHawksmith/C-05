@@ -15,6 +15,7 @@ int	ft_fibonacci(int index)
 	return (fibonacci(index, 0, 1));
 }
 
+/*
 #include <stdio.h>
 int	main(void)
 {
@@ -23,3 +24,4 @@ int	main(void)
 	n = 16;
 	printf("Fibonacci(%d): %d", n, ft_fibonacci(n));
 }
+*/
