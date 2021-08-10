@@ -1,25 +1,21 @@
 int	ft_sqrt(int nb)
 {
 	int	i;
-	int	sqrt;
+	int	int_max_sqrt;
 
 	if (nb <= 0)
 		return (0);
 	if (nb == 1)
 		return (1);
 	i = 0;
-	sqrt = 0;
-	while (sqrt <= nb)
+	int_max_sqrt = 46341;
+	while (i <= nb / 2 && i <= int_max_sqrt)
 	{
+		if (i * i == nb)
+			return (i);
 		i++;
-		sqrt = i * i;
 	}
-	i -= 1;
-	sqrt = i * i;
-	if (sqrt == nb)
-		return (i);
-	else
-		return (0);
+	return (0);
 }
 
 int	ft_is_prime(int nb)
